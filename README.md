@@ -5,7 +5,7 @@ here's a collections of programming puzzles that I've solved, enjoyed and love t
 
 * [FizzBuzz](https://github.com/yaitloutou/coding-puzzles/blob/master/Puzzels/src/main/java/io/yaitloutou/puzzels/fizzbuzz/FizzBuzz.java)
  * `FizzBuzz(n)` : https://leetcode.com/problems/fizz-buzz/
-* [Power](https://github.com/yaitloutou/coding-puzzles/blob/master/Puzzels/src/main/java/io/yaitloutou/puzzels/power/Power.java)
+* [IsPowerOf](https://github.com/yaitloutou/coding-puzzles/blob/master/Puzzels/src/main/java/io/yaitloutou/puzzels/power/Power.java)
  * `isPowerOf(n,p)` : is n power of p
  * `isPowerOfTow(n)` : is n power of 2, without using loop or recurssion
  * `isPowerOfTow(n)` : is n power of 2, without using loop or recurssion or String Declared Methods
