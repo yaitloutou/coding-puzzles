@@ -35,4 +35,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-nbacyions.xml
+*/nbactions.xml
