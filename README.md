@@ -4,6 +4,7 @@ a puzzle a day keeps... anyway :smile:
 here's a collections of programming puzzles that I've solved, enjoyed and love to keep and share.
 
 * FizzBuzz
+ * `FizzBuzz(n)` : https://leetcode.com/problems/fizz-buzz/
 * Power
  * `isPowerOf(n,p)` : is n power of p
  * `isPowerOfTow(n)` : is n power of 2, without using loop or recurssion
