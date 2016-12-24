@@ -20,7 +20,15 @@ public class Power {
             else n/=p;
         }        
         return n==1;
-    }    
+    }
+    
+    public static boolean isPowerOfUsingRecursion(int n, int p) {
+        boolean stopCondition = p == 1 ||  n < p || (n % p != 0);
+        if (stopCondition)
+            return n == 1;
+        else
+            return isPowerOfUsingRecursion(n /= p, p);        
+    }
     
     public static boolean isPowerOfTow(int n) {
         return n>0 && !Integer.toBinaryString(n).substring(1).contains("1");
