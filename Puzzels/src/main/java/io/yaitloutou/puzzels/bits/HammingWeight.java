@@ -17,7 +17,7 @@ import sun.security.util.Length;
  */
 public class HammingWeight {
     // you need to treat n as an unsigned value
-    public static int hammingWeight(int n) {
+    public static int solution0(int n) {
         char[] bs = Integer.toBinaryString(n).toCharArray();
         int h=0;
         for(int i=0;i<bs.length;i++){
@@ -26,7 +26,7 @@ public class HammingWeight {
         return h;
     }
     
-    public static int hammingWeight2(int n) {
+    public static int solution1(int n) {
         String bs = Integer.toBinaryString(n);
         int h = bs.length()- bs.replace("1", "").length();        
         return h;
